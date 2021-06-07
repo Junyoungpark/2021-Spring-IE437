@@ -1,7 +1,6 @@
 # 2021-Spring-IE437
 
-This repository several types of gradient-based optimization problems that utilize the automatic differentiation (
-Autodiff) tools for modeling objective, constraints in the optimization problems.
+This repository contains several types of gradient-based optimization problems that utilize the automatic differentiation tools (e.g. `pytorch`)  for modeling objective, constraints in the optimization problems.
 
 ## Dependencies
 
