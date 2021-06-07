@@ -4,6 +4,9 @@ import torch.nn as nn
 
 
 class Action(nn.Module):
+    """
+    A nn.Module wrapper for action
+    """
 
     def __init__(self,
                  H,
@@ -24,6 +27,9 @@ class Action(nn.Module):
 
 
 class MPC(nn.Module):
+    """
+    Minimal MPC implementation utilizing arbitrary torch.nn.Module as the dynamic model
+    """
 
     def __init__(self,
                  model: nn.Module,

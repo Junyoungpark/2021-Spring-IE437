@@ -12,3 +12,10 @@ def set_seed(seed: int,
     if use_cuda:
         torch.cuda.manual_seed(seed)
         torch.cuda.manual_seed_all(seed)
+
+
+def generate_y(x, roots=[0.0, 0.0]):
+    _x = 1
+    for root in roots:
+        _x *= (x - root)
+    return _x
